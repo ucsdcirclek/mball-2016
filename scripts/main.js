@@ -26,7 +26,7 @@ function initializeClock(endtime) {
 
     days.innerHTML = t.days;
     hours.innerHTML = t.hours;
-    minutes.innerHTML = t.minutes;
+    minutes.innerHTML = ('0' + t.minutes).slice(-2);
     seconds.innerHTML = ('0' + t.seconds).slice(-2);
 
     if (t.total <= 0) {

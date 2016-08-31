@@ -27,6 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
     font-size: 60px;
+    letter-spacing: 8px;
     margin: 0;
 }
 
@@ -92,5 +93,20 @@ h1 {
 
     .questions > h2 {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 570px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    #clock > span {
+        font-size: 45px;
+    }
+
+    #clock > span:after {
+        display: block;
+        font-size: 12px;
     }
 }

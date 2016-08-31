@@ -1,3 +1,77 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #d3eae5;
+    font-family: 'Quicksand', 'Helvetica', sans-serif;
+    text-transform: uppercase;
+}
+
+main {
+    height: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#clock-days:after {
+    content: 'Days';
+}
+
+#clock-hours:after {
+    content: 'Hours';
+}
+
+#clock-minutes:after {
+    content: 'Minutes';
+}
+
+#clock-seconds:after {
+    content: 'Seconds';
+}
+
+#clock {
+    margin: 40px 0;
+}
+
+#clock > span {
+    display: inline-block;
+    width: 20%;
+    font-size: 100px;
+}
+
+#clock > span:after {
+    display: block;
+    font-size: 20px;
+}
+
+.questions > h2 {
+    margin-bottom: 20px;
+}
+
+.mail-icon {
+    color: white;
+    text-decoration: none;
 }

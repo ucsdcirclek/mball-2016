@@ -6,11 +6,27 @@ html {
 
 body {
     height: 100%;
+    min-height: 600px;
     margin: 0;
     padding: 0;
     background-color: #d3eae5;
     font-family: 'Quicksand', 'Helvetica', sans-serif;
     text-transform: uppercase;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    padding: 30px;
+}
+
+.logo img {
+    display: inline-block;
+    height: 60px;
 }
 
 main {
@@ -97,6 +113,10 @@ h1 {
 
     .questions > h2 {
         font-size: 20px;
+    }
+
+    header > .logo {
+        text-align: center;
     }
 }
 

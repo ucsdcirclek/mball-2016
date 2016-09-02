@@ -14,12 +14,6 @@ body {
     text-transform: uppercase;
 }
 
-header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
 .logo {
     padding: 30px;
 }
@@ -113,10 +107,6 @@ h1 {
 
     .questions > h2 {
         font-size: 20px;
-    }
-
-    header > .logo {
-        text-align: center;
     }
 }
 

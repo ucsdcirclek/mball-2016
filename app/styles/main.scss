@@ -17,15 +17,26 @@ $mball-navy: #1A4A68;
 .logo {
   height: 100%;
 
-  img {
+  * {
     display: inline-block;
     height: 100%;
+
+    &:first-child {
+      margin-right: 8px;
+    }
   }
 }
 
-main {
-  height: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  text-align: center;
+.navbar-nav-mball {
+  font-weight: 400;
+  text-transform: uppercase;
+
+  a:hover {
+    font-weight: bold;
+    transition: font-weight 2s;
+  }
+}
+
+.navbar-brand-mball {
+  padding: 23px $navbar-padding-horizontal;
 }
